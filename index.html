@@ -2,46 +2,241 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sidebar Example</title>
+    <title>Personal Portfolio website HTML CSS only Codehal</title>
     <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body class="container">
-    <div class="sidebar">
-        <div class="profile">
-            <img src="sary/ZO.jpg" alt="Profile Photo">
-            <h2>RAMBOAMIARISON</h2>
-            <h3>Herizo Radilison</h3>
-        </div>
-        <nav class="contact">
-            <a href="twitter"><img src="lhorloge.png" alt="facebook"></a>
-            <a href="https://www.facebook.com/Miary.Radilison/about?locale=fr_FR">
-                <img src="lhorloge.png" alt="facebook"></a>
-            <a href="mail"><img src="lhorloge.png" alt="facebook"></a>
-            <a href="mail"><img src="lhorloge.png" alt="facebook"></a>
-            <a href="mail"><img src="lhorloge.png" alt="facebook"></a>
+<body>
+    <section class="header">
+        <a href="#" class="logo">Miary.</a>
+
+        <i class="bx bx-menu" id="menu"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about" class="about-link">About</a>
+            <a href="#Services">Skills</a>
+            <a href="#Expérience">Expérience</a>
+            <a href="#Education">Education</a>
+            <a href="#Contact">Contact</a>
         </nav>
-        <nav class="menu">
-            <a href="#home"><img src="maison.png" alt="home icon"> Home</a>
-            <a href="#about"><img src="utilisateur.png" alt="About icon"> About</a>
-            <a href="#resume"><img src="telephone.png" alt="Resume icon"> Resume</a>
-            <a href="#portfolio"><img src="enveloppe.png" alt="Portfolio icon"> Portfolio</a>
-            <a href="#services"><img src="appareil-photo.png" alt="Services icon"> Services</a>
-            <a href="#dropdown"><img src="lhorloge.png" alt="Dropdown icon"> Dropdown</a>
-            <a href="#contact"><img src="panier.png" alt="Contact icon"> Contact</a>
-        </nav>        
-    </div>
-    <div class="content" style="width: 87vw; height: 100vh;  background-size: cover; background-position: center; background-repeat: no-repeat;">
-        <div id="home" class="home">
-            <div>
-                <h1>uurzurtertzrezrzirhe</h1>
-            </div>        
+    </section>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, Miary Radilison</h1>
+            <h3>I'm <span>Mathématique finance/Developer BI</span></h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Id sequi, aspernatur vitae fugiat quis corporis ad obcaecati aut soluta, blanditiis similique? Quae vero voluptatem repellendus 
+                quod ipsum, molestias quas possimus!</p>
+            <div class="btn-box">
+                <a href="#" class="hire">Hire me</a>
+                <a href="#" class="talk">Let's Talk</a>
+                <a href="#" class="download">Download CV</a>
+            </div>
+            <div class="reseau_social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
         </div>
-        <div id="about">
+        <div class="image-home">
+            <img src="sary/ZO.png" alt="">
         </div>
-    </div>
-    
-   
+    </section>
+    <section class="about", id="about">
+        <div class="about_me1">
+            <div class="image_about_me">
+                <img src="sary/ZO.png" alt="">
+            </div>
+        </div>
+        <div class="about_me2">
+            <p>Je m'appelle Miary, titulaire d'un diplôme en mathématiques appliquées avec une spécialisation en mathématiques financières, et 
+                doté d'une expertise solide en analyse de données. Grâce à mon parcours, j'ai acquis des compétences approfondies 
+                en modélisation de données, en évaluation de risques financiers et en création de 
+                solutions analytiques adaptées aux besoins des entreprises.</p>
+            <br>
+            <p>    Passionné par l'enseignement et le partage de connaissances, je m'efforce de rendre les concepts complexes accessibles et 
+                utiles pour mes étudiants et collègues. 
+                En tant qu'analyste de données, je me spécialise dans la conception de tableaux de bord interactifs et de rapports 
+                dynamiques, permettant aux entreprises de transformer leurs données en insights stratégiques et de prendre des 
+                décisions éclairées basées sur des analyses robustes et fiables.</p>
+             <br>   
+            <p>    Mon objectif est de continuer à approfondir mes compétences en Business Intelligence 
+                et en finance quantitative, tout en contribuant activement à l'amélioration des processus 
+                de prise de décision au sein des entreprises</p>
+        </div>
+    </section>
+    <section class="services" id="Services">
+        <h2 class="heading">Mes <span>compétences</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <h3>Langage de Programmation</h3>
+                <p>Python</p>
+                <p>C</p>
+                <p>C++</p>
+                <p>HTML, CSS, JavaScript, TypeScript</p>
+                <p>Framework : React, Refine</p>
+                <p>SQL</p>
+            </div>
+            
+            <div class="services-box">
+                <h3>Business Intelligence</h3>
+                <p>Logiciel : POWER BI, EXCEL, TABLEAU</p>
+                <p>Langage associé : DAX, VBA, Langage M et SQL</p>
+                <p>Framework : Refine</p>
+            </div>
+            
+            <div class="services-box">
+                <h3>Suite Office et Documentation</h3>
+                <p>Pack office</p>
+                <p>Latex</p>
+            </div>
+        </div>
+        
+    </section>
+    <section class="Expérience" id="Expérience">
+        <br>
+        <h2 class="heading">Mes <span>Expériences</span></h2>
+        <br>
+        <div class="Expert">
+            <div class="test">
+                <div class="Expérience-1">
+                    <div class="date">
+                        <p>Juil et Déc 2024</p>
+                    </div>
+                    <div class="cause">
+                        <div>
+                            <p class="etape"> formateur Power BI | ONG IDEA Academy</p>
+                            <br><div>
+                                <ul>
+                                    <li>Collecte des données depuis divers source (PostgreSQL, Excel, ...)</li>
+                                    <li>Transformation des données avec Power Query et Langage M</li>
+                                    <li>Modélisation des données et Langage DAX</li>
+                                    <li>Publication et Gestion des rapports via Power BI Service</li>
+                                
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="Expérience-1">
+                    <div class="date">
+                        <p>Juin - Nov 2024</p>
+                    </div>
+                    <div class="cause">
+                        <div>
+                            <p class="etape"> Encadreur des étudiants de l'ENI en Business Intelligence | ONG IDEA Academy</p>
+                           <br><div>
+                                <ul>
+                                    <li>Création des bases de données (PostgreSQL) sous Docker Compose</li>
+                                    <li>Extraire de ces données et les intégrer dans Power BI et Framework "REFINE"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="Expérience-1">
+                    <div class="date">
+                        <p>Mai 2024</p>
+                    </div>
+                    <div class="cause">
+                        <div>
+                            <p class="etape"> Conférencier à l'Université ENI Fianaratsoa | ONG IDEA Academy</p>
+                            <br><div>
+                                <ul>
+                                    <li>Animation de conférences sur les innovations en Business Intelligence</li>
+                                    <li>Représentation de Framework "REFINE"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="Expérience-1">
+                    <div class="date">
+                        <p>Mars 2024</p>
+                    </div>
+                    <div class="cause">
+                        <div>
+                            <p class="etape"> Conférencier à l'Université ENI Fianaratsoa | ONG IDEA Academy</p>
+                            <br><div>
+                                <ul>
+                                    <li>Apprendre à coder avec Framework "REFINE"</li>
+                                    <li>Création des bases de données sous Docker</li>
+                                    <li>Fabrication d'Api GraphQL sous "HASURA"</li>
+                                    <li>Création de tableaux de bord avec "METABASE"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="Expérience-1">
+                    <div class="date">
+                        <p>Depuis 2020</p>
+                    </div>
+                    <div class="cause">
+                        <div>
+                            <p class="etape"> Autodidacte POWER BI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-competences">
+                    <img src="sary/ZO.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="Education" id="Education">
+        <br>
+        <h2 class="heading">Mes <span>Diplômes</span></h2>
+        <br>
+        <div class="education">
+            <div class="image-diplomes">
+                <img src="sary/ZO.png" alt="">
+            </div>
+            <div class="diplôme1">
+                <div class="diplôme">
+                    <p>2023 - Attestation de Master 2, spécialité Mathématiques financières</p>
+                    <br><p>2022 - Master 1 en Mathématiques Appliquées, Université d'Antananarivo</p>
+                    <br><p>2020 - Licence en Mathématiques Appliquées, Université d'Antananarivo</p>
+                    <br><p>2017 - Baccalauréat série C, Lycée Razafindrabe Victorien, Moramanga</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Contact" id="Contact">
+        <br>
+        <h2>Contactez-moi</h2>
+        <br>
+        <div class="Contact-Container">
+            <p> Si vous avez un projet ou une question ? N'hésitez pas à me contacter</p>
+            <p> Téléphone : 034 58 860 68</p>
+            <p> Adresse : VS 12 DJ Bis KX Ambolokandrina</p>
+            <p>Veuillez remplir la formulaire si vous voulez envoyer de mail en moi :</p><br>
+            <form action="https://formsubmit.co/miary95080@gmail.com" method="post" class="formulaire">
+                <div>
+                    <div>
+                        <input type="text" name="name" placeholder="Votre nom" required/>
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Votre email" required/>
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Votre message" rows="5"  required></textarea>
+                    </div>
+                    <div>
+                        <button type="submit"> Envoyer</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
