@@ -39,7 +39,6 @@ body{
     font-weight: 600;
     text-decoration: none;
     transition: .3s;
-    /* border: #fff; */
     border-radius: 10%;
 }
 .navbar a:hover,
@@ -78,7 +77,7 @@ body{
     color: rgb(0, 183, 255);
 }
 .home-content p{
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 2% 0 6%;
 }
 .home-content .btn-box{
@@ -150,48 +149,39 @@ body{
 
 .about {
     height: 100vh;
-    display: flex;                                /* Keep it flex */
-    justify-content: space-between;                      /* Center the content */
-    align-items: center;                          /* Align items vertically */
+    display: flex;                               
+    justify-content: space-between;                     
+    align-items: center;                          
     padding: 0 10%;
-    color: black;
     background: rgb(50, 50, 50);
 }
 
 .about_me{
     background: rgb(50, 50, 50);
-    color: #111010;
     padding: 0 10%;
 }
 
 .about .about_me1 {
-    display: flex;                                /* Use flex for this section */                      /* Stack items vertically */
-    align-items: center;  /* Center items */
+    display: flex;
+    align-items: center;
     background: rgb(50, 50, 50);
 }
 
-.about .about_me1 h1{
-    color: rgb(0, 183, 255);
-    margin-top: 18;
-}
 .about .about_me1 img {
     width: 100%;
     height: 100%;
-    border-radius: 50%;                          /* Add space below the image */
+    border-radius: 50%;        
 }
-.about .about_me2 {
+/* .about .about_me2 {
     background: transparent;
-    max-width: 600px;                             /* Limit width of text container */
+    max-width: 600px;                             
     margin-left: 20px; 
-}
-.about .about_me2 h1{
-    margin-left: 10%;
-}
-.about .about_me2 p{
-    font-weight: 15px;
+} */
+/* .about .about_me2 p{
+    
     margin: 10px 2px 10px 2px;
     color: #fff;
-}
+} */
 
 .services{
     padding: 0 10%;
@@ -201,7 +191,7 @@ body{
 .services h2{
     margin-bottom: 10px;
 }
-/* 
+
 .services-container{
     display: flex;
     flex-wrap: wrap;
@@ -224,7 +214,7 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     overflow: auto;
     scrollbar-width: none;
-} */
+}
 
 .Expérience{
     background-color: black;
@@ -232,9 +222,9 @@ body{
 }
 
 .Expérience .Expert{
-    display: flex;                                /* Keep it flex */
-    justify-content: space-between;                      /* Center the content */
-    align-items: center;                          /* Align items vertically */
+    display: flex;                              
+    justify-content: space-between;                     
+    align-items: center;                          
 }
 
 .Expérience .test{
@@ -275,7 +265,7 @@ body{
 }
 
 .Education{
-    background:rgb(36, 35, 35);
+    background-color: #111010;
     padding: 0 10%;
 }
 
@@ -316,16 +306,17 @@ body{
 }
 
 .Contact{
-    background:rgb(36, 35, 35);
-    padding: 0 10%;
+    background-color: #111010;
+    padding: 50px 20px;
+    text-align: center;
 }
 
 .Contact-Container{
-    max-width: 100vw; 
-    /* background-color: #007bff; */
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.Contact h2{
+.Contact-Container h2{
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
@@ -333,15 +324,14 @@ body{
 
 .Contact-Container p{
     margin-bottom: 20px;
-    font-size: 1.9rem;
+    font-size: 1.1rem;
+    color: #555;
 }
 
-
 form input, form textarea {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 10px;
-    width: 40vw;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
